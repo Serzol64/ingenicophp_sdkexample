@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'serzol64/ingenicophp_sdkexample',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'ingenico-epayments/connect-sdk-php' => array(
+            'pretty_version' => '6.20.0',
+            'version' => '6.20.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ingenico-epayments/connect-sdk-php',
+            'aliases' => array(),
+            'reference' => '169df9c0e95b83ef9b63c70a5cfeeaeaf7b86694',
+            'dev_requirement' => false,
+        ),
+        'robtimus/multipart' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../robtimus/multipart',
+            'aliases' => array(),
+            'reference' => '908a1a4615b007718231bc0241b985478e17b6b4',
+            'dev_requirement' => false,
+        ),
+        'serzol64/ingenicophp_sdkexample' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);

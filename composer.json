@@ -1,0 +1,8 @@
+{
+    "name": "serzol64/ingenicophp_sdkexample",
+    "description": "Пример использования Ingenico PHP SDK в простом проекте",
+    "type": "project",
+    "require": {
+        "ingenico-epayments/connect-sdk-php": "^6.20"
+    }
+}

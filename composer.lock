@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65152b9ca06710eb2b2b43a58eff338a",
+    "packages": [
+        {
+            "name": "ingenico-epayments/connect-sdk-php",
+            "version": "6.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ingenico-ePayments/connect-sdk-php.git",
+                "reference": "169df9c0e95b83ef9b63c70a5cfeeaeaf7b86694"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ingenico-ePayments/connect-sdk-php/zipball/169df9c0e95b83ef9b63c70a5cfeeaeaf7b86694",
+                "reference": "169df9c0e95b83ef9b63c70a5cfeeaeaf7b86694",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "robtimus/multipart": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ingenico\\Connect\\Sdk\\": [
+                        "src/Ingenico/Connect/Sdk",
+                        "lib/Ingenico/Connect/Sdk"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ingenico ePayments",
+                    "homepage": "http://www.ingenico.com/epayments/"
+                }
+            ],
+            "description": "PHP SDK to communicate with the Ingenico ePayments platform server-to-server API",
+            "homepage": "http://www.ingenico.com/epayments/",
+            "keywords": [
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/Ingenico-ePayments/connect-sdk-php/issues",
+                "source": "https://github.com/Ingenico-ePayments/connect-sdk-php/tree/6.20.0"
+            },
+            "time": "2021-04-09T11:42:54+00:00"
+        },
+        {
+            "name": "robtimus/multipart",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robtimus/php-multipart.git",
+                "reference": "908a1a4615b007718231bc0241b985478e17b6b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robtimus/php-multipart/zipball/908a1a4615b007718231bc0241b985478e17b6b4",
+                "reference": "908a1a4615b007718231bc0241b985478e17b6b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Robtimus\\Multipart\\": [
+                        "src/Robtimus/Multipart"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Spoor",
+                    "email": "robtimus@users.noreply.github.com"
+                }
+            ],
+            "description": "A library to support (streaming) multiparts",
+            "homepage": "https://github.com/robtimus/php-multipart",
+            "keywords": [
+                "multipart",
+                "streaming"
+            ],
+            "support": {
+                "issues": "https://github.com/robtimus/php-multipart/issues",
+                "source": "https://github.com/robtimus/php-multipart/tree/master"
+            },
+            "time": "2018-10-27T18:53:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
