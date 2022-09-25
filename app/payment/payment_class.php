@@ -1,6 +1,6 @@
 <?php
 require '../vendor/autoload.php';
-require_once '../.config.php';
+include_once '../.config.php';
 
 use Ingenico\Connect\Sdk\Client;
 use Ingenico\Connect\Sdk\Communicator;

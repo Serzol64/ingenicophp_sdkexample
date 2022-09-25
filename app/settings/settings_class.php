@@ -1,6 +1,6 @@
 <?php
 require '../vendor/autoload.php';
-require_once '../.config.php';
+include_once '../.config.php';
 
 use Ingenico\Connect\Sdk\Client;
 use Ingenico\Connect\Sdk\CallContext;
@@ -49,7 +49,7 @@ class Form{
 		$this->payment = paymentSystem();
 	}
 	public function send($q){
-		$currentApi = connector()->prepare("SELECT JSON_UNQUOTE(JSON_EXTRACT(contact, '$.lang')) as language, JSON_UNQUOTE(JSON_EXTRACT(contact, '$.region')) as region FROM :table WHERE phone=:u");
+		$currentApi = $this->data->prepare("SELECT JSON_UNQUOTE(JSON_EXTRACT(contact, '$.lang')) as language, JSON_UNQUOTE(JSON_EXTRACT(contact, '$.region')) as region FROM :table WHERE phone=:u");
 		$currentApi->execute(['table' => $currentColumn['user'], 'u' => $q['user']]);
 		
 		$contactResponse = $currentApi->fetch(PDO::FETCH_ASSOC);
