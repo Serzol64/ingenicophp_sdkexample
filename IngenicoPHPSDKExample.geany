@@ -27,14 +27,15 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
+current_page=3
 FILE_NAME_0=3073;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fsettings%2Fsettings_class.php;0;4
 FILE_NAME_1=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpub%2Findex.php;0;4
 FILE_NAME_2=856;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fsettings%2Ftemplate.php;0;4
-FILE_NAME_3=186;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2F.config.php;0;4
+FILE_NAME_3=407;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2F.config.php;0;4
 FILE_NAME_4=1082;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Flib%2Factions_class.php;0;4
 FILE_NAME_5=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpayment%2Ftemplate.php;0;4
 FILE_NAME_6=2081;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpayment%2Fpayment_class.php;0;4
+FILE_NAME_7=575;SQL;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Finit_db.sql;0;4
 
 [VTE]
 last_dir=/home/sergey/Рабочий стол/Sergey/docker-compose-lamp/www/info-expert-test-task

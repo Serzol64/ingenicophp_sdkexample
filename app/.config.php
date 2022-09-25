@@ -6,7 +6,7 @@ $currentColumn = [
 ];
 
 function connector(){
-	if($isRemote){ return new PDO('mysql:host=fdb30.awardspace.net;dbname=4182102_testtask', '4182102_testtask', 'seriy2000-testtask'); }
-	else{ return new PDO('mysql:host=database;dbname=aplex', 'developer', '19052000'); }
+	if($isRemote){ return new PDO('mysql:host=fdb30.awardspace.net;port=3306;dbname=4182102_testtask', '4182102_testtask', 'seriy2000-testtask'); }
+	else{ return new PDO('mysql:host=database;port=3306;dbname=aplex', 'developer', '19052000'); }
 }
 ?>
