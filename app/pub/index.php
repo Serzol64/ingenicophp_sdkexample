@@ -1,8 +1,10 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 	<head>
 		<title></title>
 	   <meta charset="UTF-8" />
+	   <meta name="robots" content="noindex, nofollow" />
 	   <style>
 	   	body{
 		  margin: 0;
@@ -45,6 +47,7 @@
 		#basic[data-operator="auth"] > footer form{
 		  width: 30%;
 		  margin-left: 32vw;
+		  margin-top: 26vh;
 		}
 		#basic > footer form input.auth, #basic > footer form select{
 		  font-size: 100%;

@@ -1,8 +1,11 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 	<head>
 		<title></title>
 	   <meta charset="UTF-8" />
+	   <meta name="refresh" content="10;url=http://<?php echo $_SERVER['SERVER_NAME']; ?>/app/pub/index.php"/>
+	   <meta name="robots" content="noindex, nofollow" />
 	   <style type="text/css">
 	   	body{
 		  margin: 0;
@@ -17,6 +20,7 @@
 		  grid-template-rows: 1fr 1fr; 
 		  gap: 1% 2%; 
 		  width: 100%; 
+		  margin-top: 13vh;
 		}
 
 		#success > header *{

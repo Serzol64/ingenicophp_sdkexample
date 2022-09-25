@@ -12,12 +12,35 @@ class Action{
 	}
 	public function exists(){
 		switch($this->service){
-			case 'settings': break;
-			case 'payment': break;
+			case 'settings': 
+				if($this->query['meta']['service'] == 'validator'){
+					if($this->query['meta']['subService'] == 'auth'){
+						$currentAuth = new Login();
+						if($currentAuth->validator($this->query['content'])){ return TRUE; }
+					}
+				}
+			break;
+			case 'payment': 
+				if($this->query['meta']['service'] == 'validator'){
+					$isSuccess = TRUE;
+					$paymentControl = new Success();
+				
+					if(!$paymentControl->validator($this->query['content'])){ $isSuccess = FALSE; }
+					
+					return $isSuccess;
+				}
+			break;
 		}
 	}
 	public function execute(){
-		
+		switch($this->service){
+			case 'settings': 
+				if($this->query['meta']['service'] == 'send'){
+						$currentQuery = new Form();
+						header('Location: ' . $currentQuery->send($this->query['content']));
+				}
+			break;
+		}
 	}
 }
 ?>
