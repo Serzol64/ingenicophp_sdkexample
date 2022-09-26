@@ -64,6 +64,7 @@ else {
 			new Action($service, $authQuery[0])
 		];
 		
+		$validError = '';
 		if($authResult[0]->exists()){
 			$_SESSION['user'] = $_POST['phone'];
 			echo "<script>window.reload(true);</script>"; 
