@@ -5,10 +5,7 @@ use Ingenico\Connect\Sdk\Communicator;
 use Ingenico\Connect\Sdk\CommunicatorConfiguration;
 use Ingenico\Connect\Sdk\DefaultConnection;
 
-function connector(){
-	if($_SERVER['SERVER_NAME'] != 'testtask64.local'){ return new PDO('mysql:host=fdb30.awardspace.net;port=3306;dbname=4182102_testtask', '4182102_testtask', 'seriy2000-testtask'); }
-	else{ return new PDO('mysql:host=database;port=3306;dbname=aplex', 'developer', '19052000'); }
-}
+function connector(){ return new PDO('mysql:host=database;port=3306;dbname=aplex', 'developer', '19052000'); }
 
 function paymentSystem(){
 	if(connector()){
