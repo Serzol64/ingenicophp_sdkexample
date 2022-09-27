@@ -2,6 +2,7 @@
 include '../payment/payment_class.php';
 include '../settings/settings_class.php';
 
+
 class Action{
 	protected $service;
 	protected $query;
@@ -37,7 +38,7 @@ class Action{
 			case 'settings': 
 				if($this->query['meta']['service'] == 'send'){
 						$currentQuery = new Form();
-						header('Location: ' . $currentQuery->send($this->query['content']));
+						return 'https://payment.' . $currentQuery->send($this->query['content']);
 				}
 			break;
 		}

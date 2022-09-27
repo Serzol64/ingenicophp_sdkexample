@@ -3,7 +3,12 @@ require '../lib/vendor/autoload.php';
 require_once '../.config.php';
 
 use Ingenico\Connect\Sdk\CallContext;
-
+use Ingenico\Connect\Sdk\Domain\Hostedcheckout\Definitions\HostedCheckoutSpecificInput;
+use Ingenico\Connect\Sdk\Domain\Definitions\AmountOfMoney;
+use Ingenico\Connect\Sdk\Domain\Definitions\Address;
+use Ingenico\Connect\Sdk\Domain\Payment\Definitions\Customer;
+use Ingenico\Connect\Sdk\Domain\Payment\Definitions\Order;
+use Ingenico\Connect\Sdk\Domain\Hostedcheckout\CreateHostedCheckoutRequest;
 
 class Success{
 	public $data;
@@ -11,29 +16,22 @@ class Success{
 	
 	public function __construct(){
 		$this->data = connector();
-		$this->payment = paymentSystemConnect();
+		$this->payment = paymentSystem();
 	}
 	public function validator($q){
-		$buy = $q['id'];
+		$paymentResponse = $this->payment->merchant("1293")->hostedcheckouts()->get($q['checkout']);
+		$readyPaymentResponse = $paymentResponse;
 		
-		$currentBuy = $this->data->prepare('SELECT JSON_UNQUOTE(JSON_EXECUTE(payment, "$.hostedCheckoutId")) as checkout FROM :table WHERE id=:cart');
-		$currentBuy->execute(['cart' => $buy, 'table' => $currentColumn['cart']]);
-		
-		$buyResponse = $currentBuy->fetch(PDO::FETCH_ASSOC);
-		
-		$paymentResponse = $this->payment->merchant("merchantId")->hostedcheckouts()->get($buyResponse['checkout']);
-		$readyPaymentResponse = json_decode($paymentResponse, true);
-		
-		if($readyPaymentResponse['status'] == PAYMENT_CREATED){
-			if($this->execute($buy)){ return TRUE; }
+		if(!$readyPaymentResponse->createdPaymentOutput->payment->statusOutput->errors){
+			if($this->execute($q)){ return TRUE; }
 		}
 		else{ return FALSE; }
 	}
 	private function execute($q){
 		$buy = $q['id'];
 		
-		$deleteBuy = $this->data->prepare('DELETE FROM :table WHERE id=:cart');
-		$deleteBuy->execute(['cart' => $buy, 'table' => $currentColumn['cart']]);
+		$deleteBuy = $this->data->prepare('DELETE FROM testtaskCarts WHERE id=:cart');
+		$deleteBuy->execute(['cart' => $buy]);
 		
 		if($deleteBuy){ return TRUE; }
 		

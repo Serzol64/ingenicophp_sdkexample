@@ -22,7 +22,8 @@ if(isset($_SESSION['user'])){
 			new Action($service, $sendQuery)
 		];
 		
-		$buyResult[0]->execute();
+		$responsePayment = $buyResult[0]->execute();
+		echo "<script>window.location.assign('". $responsePayment ."');</script>";
 	}
 ?>
 <section id="basic" data-operator="form">

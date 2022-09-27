@@ -4,7 +4,7 @@
 	<head>
 		<title></title>
 	   <meta charset="UTF-8" />
-	   <meta name="refresh" content="10;url=http://<?php echo $_SERVER['SERVER_NAME']; ?>/app/pub/index.php"/>
+	   <meta http-equiv="refresh" content="10;url=http://<?php echo $_SERVER['SERVER_NAME']; ?>/app/pub/index.php"/>
 	   <meta name="robots" content="noindex, nofollow" />
 	   <style type="text/css">
 	   	body{

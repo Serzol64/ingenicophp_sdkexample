@@ -27,11 +27,17 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=1236;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2F.config.php;0;4
-FILE_NAME_1=22;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fsettings%2Fsettings_class.php;0;4
-FILE_NAME_2=22;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpayment%2Fpayment_class.php;0;4
+current_page=5
+FILE_NAME_0=848;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2F.config.php;0;4
+FILE_NAME_1=2033;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fsettings%2Fsettings_class.php;0;4
+FILE_NAME_2=942;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpayment%2Fpayment_class.php;0;4
 FILE_NAME_3=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Flib%2Fvendor%2Fingenico-epayments%2Fconnect-sdk-php%2Flib%2FIngenico%2FConnect%2FSdk%2FCommunicatorConfiguration.php;0;4
+FILE_NAME_4=0;Conf;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fconfig%2Fphp%2Fphp.ini;0;4
+FILE_NAME_5=88;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Flib%2Factions_class.php;0;4
+FILE_NAME_6=508;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fsettings%2Ftemplate.php;0;4
+FILE_NAME_7=252;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpayment%2Ftemplate.php;0;4
+FILE_NAME_8=860;SQL;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Finit_db.sql;0;4
+FILE_NAME_9=336;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2Fdocker-compose-lamp%2Fwww%2Finfo-expert-test-task%2Fapp%2Fpub%2Fpayment.php;0;4
 
 [VTE]
 last_dir=/home/sergey/Рабочий стол/Sergey/docker-compose-lamp/www/info-expert-test-task

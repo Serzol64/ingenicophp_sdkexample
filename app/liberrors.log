@@ -1,0 +1,119 @@
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: isRemote in /var/www/html/info-expert-test-task/app/.config.php on line 15
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. connector() /var/www/html/info-expert-test-task/app/settings/settings_class.php:18
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: isRemote in /var/www/html/info-expert-test-task/app/.config.php on line 15
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP   6. connector() /var/www/html/info-expert-test-task/app/.config.php:20
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: isRemote in /var/www/html/info-expert-test-task/app/.config.php on line 15
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP   6. connector() /var/www/html/info-expert-test-task/app/.config.php:22
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: currentColumn in /var/www/html/info-expert-test-task/app/.config.php on line 23
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/html/info-expert-test-task/app/.config.php on line 23
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/info-expert-test-task/app/.config.php on line 27
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/info-expert-test-task/app/.config.php on line 27
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->__construct() /var/www/html/info-expert-test-task/app/lib/actions_class.php:44
+[27-Sep-2022 05:46:27 UTC] PHP   5. paymentSystem() /var/www/html/info-expert-test-task/app/settings/settings_class.php:19
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: currentColumn in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 23
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 23
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined variable: currentColumn in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 29
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 29
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 40
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined index: cost in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 45
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Undefined index: exchange in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 46
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/info-expert-test-task/app/settings/settings_class.php on line 49
+[27-Sep-2022 05:46:27 UTC] PHP Stack trace:
+[27-Sep-2022 05:46:27 UTC] PHP   1. {main}() /var/www/html/info-expert-test-task/app/pub/index.php:0
+[27-Sep-2022 05:46:27 UTC] PHP   2. include() /var/www/html/info-expert-test-task/app/pub/index.php:79
+[27-Sep-2022 05:46:27 UTC] PHP   3. Action->execute() /var/www/html/info-expert-test-task/app/settings/template.php:25
+[27-Sep-2022 05:46:27 UTC] PHP   4. Form->send() /var/www/html/info-expert-test-task/app/lib/actions_class.php:45
+[27-Sep-2022 05:46:27 UTC] PHP Fatal error:  Uncaught exception 'Ingenico\Connect\Sdk\ResponseException' with message 'The server returned an error.'. in /var/www/html/info-expert-test-task/app/lib/vendor/ingenico-epayments/connect-sdk-php/lib/Ingenico/Connect/Sdk/ResponseExceptionFactory.php:50
+HTTP status code: 403
+Response:
+{
+    "errorId": "63328e33408b2ac777243bd70adf9d7d",
+    "errors": [
+        {
+            "category": "CONNECT_PLATFORM_ERROR",
+            "code": "9002",
+            "httpStatusCode": 403,
+            "id": "MISSING_OR_INVALID_AUTHORIZATION",
+            "message": "MISSING_OR_INVALID_AUTHORIZATION",
+            "propertyName": null,
+            "requestId": null
+        }
+    ]
+}
+Stack trace:
+#0 /var/www/html/info-expert-test-task/app/lib/vendor/ingenico-epayments/connect-sdk-php/lib/Ingenico/Connect/Sdk/Communicator.php(300): Ingenico\Connect\Sdk\ResponseExceptionFactory->createException(403, Object(Ingenico\Connect\Sdk\Domain\Errors\ErrorResponse), NULL)
+#1 /var/www/html/info-expert-test-task/app/lib/vendor/ingenico-epayment in /var/www/html/info-expert-test-task/app/lib/vendor/ingenico-epayments/connect-sdk-php/lib/Ingenico/Connect/Sdk/ResponseExceptionFactory.php on line 50

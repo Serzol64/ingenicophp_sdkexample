@@ -35,3 +35,7 @@ VALUES
 '{"key":{"basic":"f3fa628473c1bde3","secret":"RSEUrPYB/NXp28moft/Y/lBLbJoqkTlSREwAWlkURpU="}}',
 '{"region":"NL","lang":"nl_NL"}');
 
+ALTER TABLE `4182102_testtask`.`carts` 
+DROP COLUMN `payment`;
+
+
