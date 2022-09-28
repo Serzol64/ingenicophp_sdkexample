@@ -65,12 +65,10 @@ else {
 			new Action($service, $authQuery[0])
 		];
 		
-		$validError = '';
 		if($authResult[0]->exists()){
 			$_SESSION['user'] = $_POST['phone'];
 			echo "<script>window.reload(true);</script>"; 
 		}
-		else{ $validError = 'Номер телефона и пароль, либо одно или другое не существуют в базе. Проверьте правильность введёных данных. Если данные верны, то мы решим проблему в системе авторизации!'; }
 	}
 ?>
 <section id="basic" data-operator="auth">
@@ -84,6 +82,5 @@ else {
 			<button type="submit">Войти в систему</button>
 		</form>
 	</footer>
-	<?php if($validError){ ?><script>alert('<?php echo $validError; ?>');</script><?php } ?>
 </section>
 <?php } ?>
